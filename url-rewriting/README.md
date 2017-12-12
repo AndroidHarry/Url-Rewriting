@@ -1,5 +1,10 @@
 
+# Create Project 
+
+Create a dotNet Core 2.0 console project.
+
 Install-Package Microsoft.AspNetCore
+
 Install-Package Microsoft.AspNetCore.Rewrite -Version 2.0.1 
 
 
