@@ -40,7 +40,7 @@ namespace RewriteRules
                             .Add(MethodRules.RedirectXMLRequests)
                             .Add(new RedirectImageRequests(".png", "/png-images"))
                             .Add(new RedirectImageRequests(".jpg", "/jpg-images"));
-                            //.AddRedirectToHttps(301, 5001);
+                            //.AddRedirectToHttps(301, 5001); 
 
                         app.UseRewriter(options);
                     }
